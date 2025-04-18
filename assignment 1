@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <div class="max-w-4xl mx-auto p-6">
+    <!-- Header -->
+    <header class="text-center mb-10">
+      <img src="assets/profile.jpg" alt="Profile" class="w-32 h-32 mx-auto rounded-full shadow-lg mb-4">
+      <h1 class="text-4xl font-bold">Ashish Pandey</h1>
+      <p class="text-lg text-gray-600">Web Developer | Designer | Tech Enthusiast</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+      <p>I’m a passionate developer with experience in building responsive web applications using HTML, CSS, JavaScript, and modern frameworks like Tailwind CSS.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-2">Projects</h2>
+      <ul class="space-y-2">
+        <li class="bg-white shadow p-4 rounded">
+          <h3 class="font-semibold">Portfolio Website</h3>
+          <p>A personal website built using HTML5 and Tailwind CSS.</p>
+        </li>
+        <!-- Add more projects here -->
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="text-center">
+      <p>Connect with me:</p>
+      <a href="https://github.com/yourusername" class="text-blue-600 underline">GitHub</a>
+    </section>
+  </div>
+</body>
+</html>
